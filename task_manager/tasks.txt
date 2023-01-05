@@ -1,0 +1,10 @@
+admin, Register Users with taskManager.py, Use taskManager.py to add the usernames and passwords for all team members that will be using this program., 10 Oct 2019, 20 Oct 2019, No
+user2, Testing, Just checking, 21 October 2022, 10 November 2022, No
+admin, Assign initial tasks, Use taskManager.py to assign each team member with appropriate tasks, 10 Oct 2019, 25 Oct 2019, No
+user1, Testing, Testing the functionality of task_manager.py program, 21 October 2022, 10 october 2022, No
+user3, testing, Testing the functionality of the task_manager.py, 21 October 2022, 10 November 2022, No
+user3, Testing, Just testing, 21 October 2022, 10 November 2022, No
+user1, Testing, User1 must test task adding functionality of task_manager program, 21 October 2022, 10 November 2022, No
+user2, Testing, Testing if all users can add tasks, 22 October 2022, 10 November 2022, No
+user4, Testing again, To see if all users can get tasks, 22 October 2022, 10 december 2022, No
+admin, Update credentials, I need admin to change user4 password, 22 October 2022, 31 October 2022, Yes
