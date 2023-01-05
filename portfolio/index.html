@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOHLABI MOHAPI | MY JOURNEY</title>
+    <style>
+        * { 
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .body {
+            background: black;
+        }
+        /* Container styling starts */
+        .container {
+            height: 100vh;
+            width: 100vw;
+            background: url("pic3.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Container styling ends */
+
+        /* Navigation styling starts */
+        nav h3 {
+            color: white;
+            font-size: 2em;
+            padding-top: 1%;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            font-size: 2em;
+            display: inline-block;
+            padding: 20px 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        /* Navigation styling ends */
+
+        .content {
+            position: absolute;
+            top: 50%;
+            right: 15%;
+            transform: translateY(-50%);
+            color: rgb(212, 206, 206);
+        }
+
+        /* About styling starts */
+
+        .about {
+            width: 100vw;
+            padding: 100px 0;
+            background-color: #202020;
+        }
+        
+        .about img {
+            mix-blend-mode:lighten;
+            height: auto;
+        }
+
+        .about-text {
+            font-size: 1.5em;
+            font-weight: bold;
+            width: 50vw;
+        }
+
+        .about-text p {
+            width: 30vw;
+            color: rgb(179, 144, 144);
+        }
+        
+        .about-text h2 {
+            color: rgb(206, 203, 203);
+            margin-left: 10px;
+            font-size: 2.5em;
+        }
+        
+
+        .about h4 {
+            font-size: 1.5em;
+            color: rgb(178, 168, 168);
+        }
+
+        .hyperion {
+            color: #1e72b7;
+            text-decoration: none;
+        }
+
+        .se {
+            color: rgba(236, 14, 14, 0.879);
+        }
+
+        /* About styling ends */
+
+        /* General styling starts */
+        h4 {
+            font-size: 3em;
+            padding: 10px 10px;
+        }
+
+        h3 {
+            font-size: 2em;
+        }
+
+        h3 a {
+            text-decoration: none;
+            color: rgb(188, 126, 10);
+        }
+
+        span {
+            color: rgba(255, 0, 0, 0.874);
+        }
+        /* About styling starts */
+
+        .career {
+            color: rgb(188, 126, 10);
+        }
+
+        .main {
+            width: 1000px;
+            max-width: 95%;  
+            height: 100vh;          
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        /* Projects styling starts */
+
+        .projects {
+            background: #202020;
+            height: 100vh;
+            width: 100vw;
+            padding-top: 10%;
+            padding-left: 20%;
+        }
+
+        .projects h2 {
+            margin-left: 20%;
+            font-size: 2.5em;
+            color: rgb(191, 179, 179);
+        }
+
+        .projects ul li {
+            margin-left: -40%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            font-size: 1.7em;
+            padding-top: 2%;
+        }
+
+        .projects ul li a {
+            text-decoration: none;
+            list-style: none;
+            color: rgb(133, 122, 122);
+        }
+
+        .projects ul li a:hover {
+            transform: scale(1.5);
+            transition: 1s;
+        }
+
+        .icons {
+            width: 100px;
+            height: 100px;
+        }
+
+        /* Projects styling ends */
+
+        /* Contact styling starts */
+
+        .contact {
+            width: 100vw;
+            height: 50vh;
+            background: #202020;
+            padding-left: 20%;
+            color: rgb(185, 149, 149);
+        }
+
+        .contact h2 {
+            padding-top: 2%;
+            font-size: 2.5em;
+        }
+
+        .contact p {
+            font-size: 2em;
+            padding-top: 2%;
+            padding-left: 20%;
+        }
+
+        .phone {
+            text-decoration: none;
+            color: green;
+        }
+
+        .email {
+            text-decoration: none;
+            color: green;
+        }
+        /* Contact styling ends */
+
+    </style>
+</head>
+<body>
+    <!-- container section -->
+    <div class="container">
+        <nav>
+            <h3>MY PORT<span>FOLIO</span></h3>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <h2>Hi, my name is</h3>
+        <h4>Mohlabi <span>Mohapi</span></h4>
+        <h3>I am a 
+            <span class="career">
+                <a href="https://www.hyperiondev.com/bootcamps/software_engineering/" target="_blank">Software Engineer</a>
+            </span>
+        </h3>
+    </div>
+    <!-- about section -->
+    <section id="about" class="about">
+        <div class="main">
+            <img src="pic4.png" alt="">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h4><span class="se">Software Engineer</span> | Web Developer</h4>
+                <p>
+                    Upcoming Software Engineer Student, studying with <a href="hyperiondev.com" target="_blank" class="hyperion">HyperionDev.</a>
+                    I have experience in software development and deployment methodologies.
+                    Experienced in object-oriented programming in python. Developing, testing and debugging code and designing software
+                    interfaces. Quick to learn and utilize new technologies. Successful working in both team and self-directed
+                    settings. Problem solving and giving life to ideas is my passion.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- projects section -->
+    <div class="projects" id="projects">
+        <h2>COMPLETED <span>PROJECTS</span></h2>
+        <div class="links">
+            <ul>
+                <li>
+                    <a href="https://github.com/Mutnauq92/projects/tree/main/task_manager" target="_blank">
+                        Task Manager<img src="task_manager.webp" alt="task_manager_icon" class="icons"></a>
+                    </li>
+                <li>
+                    <a href="https://github.com/Mutnauq92/projects/tree/main/task_manager_v2.0" target="_blank">
+                        <img src="task_manager.png" alt="task_manager_v2.0" class="icons">Task Manager v2.0<v2 class="0"></v2></a></li>
+                <li>
+                    <a href="https://github.com/Mutnauq92/projects/tree/main/inventory_manager" target="_blank">
+                        Inventory Manager <img src="inventory.png" alt="inventory_manager_icon" class="icons"></a></li>
+                <li>
+                    <a href="https://github.com/Mutnauq92/projects/tree/main/ebook_store" target="_blank">
+                        <img src="ebook.png" alt="ebook_store_icon" class="icons">eBook Store</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- contact section -->
+    <div class="contact" id="contact">
+        <h2>Need help with, coding, debugging or deployment | <span>Talk to me</span></h2>
+        <p>Call or Whatsapp : <a href="tel:0670893414" class="phone">(+27) 089 3414</a></p>
+        <p>Email : <a href="mailto:mohlabi16@gmail.com" class="email">mohlabi16@gmail.com</a></p>
+    </div>
+
+</body>
+</html>
