@@ -1,3 +1,2 @@
 # projects
-
-Capstone project 2
+Capstone projects
