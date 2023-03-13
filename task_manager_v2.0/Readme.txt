@@ -6,6 +6,6 @@ Minimum requirements
 
 For web version, copy the link below, and paste inside url searchbar for replit IDE.
 
-  https://replit.com/@zhet/taskmanagerapp#task_manager_v2.0
+  https://replit.com/@zhet/taskmanagerapp
 
 NB ! Always open the project in full screen for best results
