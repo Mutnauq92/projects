@@ -1,0 +1,32 @@
+/* 
+
+.color {
+    brownish ->
+    #1A120B,
+    #3C2A21,
+    #D5CEA3,
+    #E5E5CB
+
+    redish ->
+    #A75D5D,
+    #D3756B,
+    #F0997D,
+    #FFC3A1
+
+    maroonish ->
+    #7B2869,
+    #9D3C72,
+    #C85C8E,
+    #FFBABA
+} 
+
+*/
+
+color {
+    background: linear-gradient(
+        #7B2869,
+        #9D3C72,
+        #C85C8E,
+        #FFBABA
+    )
+}

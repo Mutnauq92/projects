@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* HOMEPAGE AND GENERAL STYLING */
+.wrapper {
+    background: linear-gradient(
+        #7B2869,
+        #9D3C72,
+        #C85C8E,
+        #FFBABA
+    );
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.right {
+    margin-right: 09%;
+    color: azure;
+    font-size: 1.5em;
+}
+
+.open-menu {
+    margin-right: 10%;
+    background: #7B2869;
+    border: none;
+}
+
+.open-menu li a {
+    color: white;
+}
+
+.open-menu li a:hover {
+    background: #C85C8E;
+}
+
+li {
+    list-style: none;
+}
+
+.content-wrapper {
+    margin-top: 20%;
+    line-height: 2em;
+}
+
+.content {
+    color: black; 
+    font-family: "Hi Melody";
+    font-size: 3em;
+    width: 100%;
+    letter-spacing: -0.06em;
+}
+
+.content p a {
+    color: orange;
+    font-family: "Press Start 2P", cursive;
+    font-size: 20px;
+}
+
+.content:nth-child(2) {
+    font-family: "Hi Melody", cursive;
+}
+
+.my-name {
+    color:#FFBABA;
+    font-family: "Nerko One", cursive;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+/* ABOUT PAGE */
+.left {
+    font-family: "Hind", sans-serif;
+    font-size: 1.4em;
+    letter-spacing: -0.01em;
+    margin-top: -5%;
+}
+
+.left hr {
+    width: 600px;
+    margin-left: 5%;
+    height: 10px;
+}
+
+.right-content {
+    margin-top: -5%;
+    margin-top: -15%;
+}
+
+.pic {
+    /* z-index: -1; */
+    margin-top: 5%;
+    margin-right: -5%;
+    border: 2px solid #C85C8E;
+    border-radius: 50%;
+    margin-left: 30%;
+}
+
+.blink {
+    animation: blinking 2s linear infite;
+    font-size: 1.2em;
+}
+
+@keyframes blinking {
+    0%{ color: orange;}
+    30%{ color: #000;}
+    60%{ color: orange;}
+    100%{ color: #000;}
+}
+
+.projects {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.center {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+.perm {
+    font-family: "Rubik Iso", cursive;
+}
+
+.contact-form {
+    margin-top: 10%;
+}
+
+.cont-back {
+    background: url('images/red.avif');
+    color: white;
+}
+
+.card-body img {
+    padding-top: 20px;
+    width: 38px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
